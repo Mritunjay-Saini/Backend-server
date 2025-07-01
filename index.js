@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 const app=express()
  app.use(cors({
-    origin:"https://frontend-client-iota-eight.vercel.app/",
+    origin:"https://frontend-client-iota-eight.vercel.app",
     methods:["GET","POST","PUT","DELETE"],
     credentials:true
  }))
